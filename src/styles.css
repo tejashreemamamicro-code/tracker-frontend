@@ -1,0 +1,79 @@
+:root {
+    --primary: #3a57e8;
+    --primary-info: #d7ddfa;
+    --secondary: #4bc7d2;
+    --secondary-info: #dbf3f6;
+    --background: white;
+    --highlight: black;
+    --subbackground: #dee2e6;
+    --warning: #ffc815;
+    --error: #FF5F15;
+}
+
+/* ------------- login css ------------- */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, var(--primary-info), var(--secondary-info), white);
+}
+
+/* Card styles */
+.login-card {
+    width: 400px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(75, 199, 210, 0.3);
+    background-color: white;
+    padding: 16px;
+}
+
+.login-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: var(--primary);
+}
+
+.login-button {
+    width: 120px;
+    margin-top: 16px;
+}
+
+.cancel-button {
+    width: 120px;
+    margin-top: 16px;
+    background-color: var(--warning);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.MuiFormControl-root {
+    margin-bottom: 16px;
+}
+
+.cancel-button {
+    width: 120px;
+    margin-top: 16px;
+    background-color: var(--warning);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.login-button {
+    width: 120px;
+    margin-top: 16px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
